@@ -35,19 +35,5 @@ public class WeatherController {
         model.addAttribute("zip_codes", zipCodeList);
         return "index";
     }
-// 	@GetMapping
-// 	public String getIndex(Model model) {
-// //		Response response = weatherService.getForecast("06105");
-// 		model.addAttribute("request", new Request()); 
-// //		model.addAttribute("data", response); 
-// 		return "index"; 
-// 	}
-	
-// 	@PostMapping
-// 	public String PostIndex(Request request, Model model) {
-// 		Response data = weatherService.getForecast(request.getZipCode()); 
-// 		model.addAttribute("data", data); 
-// 		return "index"; 
-// 	}
 	
 }
